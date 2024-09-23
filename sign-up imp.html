@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>sign up i-m-p</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="jquery.js"></script>
+    <script src="index001.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+.signin-up-holdall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    
+}   
+input{
+    margin-bottom: 18px;
+}
+.names{
+    display: flex;
+    justify-content: center;
+}
+.password-confirm{
+    display: flex;
+    justify-content: center;
+}
+.emailll{
+    display: flex;
+    justify-content: center;
+}
+.secure-password{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.sign-up-form{
+    width: 500px;
+    height: 700px;
+    font-size: small;
+    font-weight: 600;
+    background-color: rgb(242, 242, 242);  
+}
+
+
+
+.sign-up-des .icn{
+    text-align: left;
+}
+.sign-up-form input{
+  border: solid rgb(180, 178, 178) 1.5px;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 1s;
+  outline: none;
+}
+
+.sign-up-form input:focus{
+ transform: scale(1.03) translateY(-4px);
+}
+.sign-up-image img{
+   width: 500px;
+   height: 700px;
+   object-fit: cover;
+}
+.form-body{
+    padding: 26px;
+}
+
+.sign-up-buttonn{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+
+.sign-up-buttonn button{
+  width: 264px;
+  padding: 8px;
+  border-radius: 13px;
+  border: none;
+  color: white;
+  transition: all 1s;
+  background-color: rgba(112, 46, 178, 0.6);
+}
+
+.sign-up-buttonn button:hover{
+  transform: scale(0.9);
+}
+.termsandcondition{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: smaller;   
+    gap: 10px;
+}
+.orr1{
+ border-bottom: solid 2px black;
+}
+
+.orrr, .sign-google, .sign-apple{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+} 
+ .sign-google img, .sign-apple img{
+   padding-right: 10px;
+} 
+
+.sign-google  button, .sign-apple button{
+    background-color: white;
+    padding: 8px;
+    border-radius: 11px;
+    border: none;
+    font-size: x-small;
+    font-weight: 600;
+    transition: all 1s;
+}
+.sign-google  button:hover, .sign-apple button:hover{
+   transform: scale(0.9);
+}
+.orrr{
+    gap: 8px;
+    align-items: center;
+}
+.orr1{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.477);
+    width: 150px;
+}
+
+    </style>
+</head>
+<body>
+
+  
+    
+
+
+        <div class="signin-up-holdall">
+
+            
+    
+            <div class="sign-up-form">
+                <div class="sign-up-des" style="padding: 12px; text-align: center; border-bottom: rgba(0, 0, 0, 0.591) solid 2px;">
+                    <div class="icn">icon</div>
+                    <div >Log in or <span style="  border-bottom: 1.5px black solid; color: black; font-weight: 500; padding-bottom: 4px;">Sign up</span></div>
+                </div>
+                  <form action="">
+                  <div class="form-body">
+                      <div class="names" style="gap: 10px;">
+                          <div class="first-name" ><div>first name</div><input type="text" placeholder="first name"></div>
+                          <div class="sur-name" ><div>surname</div><input type="text" placeholder="surname"></div>
+                      </div>
+                      <div class="emailll">
+                         <div class="eemail">
+                            <div class="emaill">Email</div>
+                            <div class="address"><input  style="width: 480px;"  type="email" placeholder="Email"></div>
+                         </div>
+                         <div></div>
+                      </div>
+      
+                      <div class="password-confirm" style="gap: 10px;">
+                          <div class="password"><div>password</div><div><input type="password" ></div></div>
+                            <div class="confirmed"><div>confirm password</div><input type="password"></div>
+                      </div>
+      
+                      <div class="create-a-sec" style="width: 100%;">
+                         
+                          <div class="secure-password"><div> <div >Create a secure Password</div><input style="width: 480px;" type="password"></div><div></div></div>
+                      </div>
+                       
+                         <div class="termsandcondition">
+                            <div class="terms">
+                                <input class="agree-terms" type="checkbox">
+                            </div>
+                            <div>I agree to the terms, condition and privacy</div>
+                         </div>
+
+                      <div class="sign-up-buttonn">
+                        <div class="sign-up-button">
+                            <button >continue</button>
+                        </div>
+                        <div></div>
+                      </div>
+
+                   <div class="orrr">
+                    <div class="orr1"></div>
+                    <div class="orr2">or</div>
+                    <div class="orr1"></div>
+                      </div>
+                       <div class="sign-google">
+                        <div class="google-accc"></div>
+                        <div class="google-acc"><button type="submit"><img src="Google Icon.png">Continue with Google</button></div>
+                       
+                       </div>
+
+                       <div class="sign-apple">
+                        <div class="apple-accc"></div>
+                        <div class="apple-acc"><button type="submit"><img src="apple-logo-6 1.png" alt="">
+                            Continue with Apple
+                        </button></div>
+                       
+                       </div>
+
+                  
+
+                  </div>
+                </form>
+
+
+
+ </div>
+            <div class="sign-up-image">
+              <img src="smiley-woman-with-red-baggage-medium-shot 2.png" >
+            </div>
+          </div>
+  
+   
+</body>
+</html>
